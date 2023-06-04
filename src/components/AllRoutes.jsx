@@ -14,8 +14,8 @@ function AllRoutes() {
         <AnimatePresence>
             <Routes location={location} key={location.pathname}>
                 <Route path="/" element={<HomePage />} />
-                <Route path="about" element={<AboutPage />} />
-                <Route path="portfolio" element={<PortfolioPage />} />
+                <Route path="/about" element={<AboutPage />} />
+                <Route path="/portfolio" element={<PortfolioPage />} />
             </Routes>
         </AnimatePresence>
 
