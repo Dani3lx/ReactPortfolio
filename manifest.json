@@ -1,0 +1,15 @@
+{
+  "short_name": "portfolio",
+  "name": "Daniel's Portfolio",
+  "icons": [
+    {
+      "src": "cryo.png",
+      "type": "image/png",
+      "sizes": "370x370"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
