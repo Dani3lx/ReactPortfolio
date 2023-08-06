@@ -149,7 +149,7 @@ body {
 
 #nav-menu{
   width: clamp(50%, 700px, 90%);
-  height: 100vh;
+  height: 110vh;
   margin: auto;
   border-radius: 1rem;
   display: flex;
