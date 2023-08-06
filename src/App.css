@@ -149,7 +149,7 @@ body {
 
 #nav-menu{
   width: clamp(50%, 700px, 90%);
-  height: 110vh;
+  height: 100vh;
   margin: auto;
   border-radius: 1rem;
   display: flex;
@@ -371,6 +371,7 @@ body {
 @media screen and (max-width: 768px) {
   .portfolio {
     padding: 5%;
+    margin-bottom: 20px;
   }
 
   .portfolio__container{
