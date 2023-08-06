@@ -1,8 +1,8 @@
 :root{
   --dominant-color: #DCE6F2;
   --secondary-color: #27283C;
-  --accent-color: #9F7239;
-  --tertiary-color: #8DCDEB;
+  --accent-color: #FF8C42;
+  --tertiary-color: #81c3e9;
 }
 
 .lock{
@@ -294,13 +294,18 @@ body {
   margin-bottom: 20px;
 }
 
-@media only screen and (max-width:600px){
+@media only screen and (max-width:768px){
+
+  .about__title{
+    font-size: 20px;
+  }
+
   .about__text{
     font-size: 80%;
   }
 
   .about__card{
-    padding: 20px 40px;
+    padding: 3% 40px;
   }
 }
 
@@ -348,6 +353,8 @@ body {
   height: 100vh;
 }
 
+
+
 .portfolio__container{
   display: grid;
   max-width: 900px;
@@ -356,9 +363,19 @@ body {
   max-height: 600px;
   min-height: 300px;
   padding: 0;
-  margin-top: 10vh;
+  margin-top: 10%;
   grid-template-rows:min-content;
-  margin-bottom: 200px;
+  margin-bottom: 5%;
+}
+
+@media screen and (max-width: 768px) {
+  .portfolio {
+    padding: 5%;
+  }
+
+  .portfolio__container{
+    margin-bottom: 5%;
+  }
 }
 
 .portfolio__text{
